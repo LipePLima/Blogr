@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem  1.5rem 0 1.5rem;
+    background-color: rgb(60, 61, 61);
 }
 
 h1 {
@@ -19,13 +20,5 @@ h1 {
     padding: 0;
     border: none;
     background-color: transparent;
-}
-
-.material-symbols-outlined {
-    font-size: 28px;
-    font-variation-settings:
-    'FILL' 100,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 50
+    background-image: url('../../../assets/img/icon-hamburger.svg');
 }
