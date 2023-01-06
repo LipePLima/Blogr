@@ -1,24 +1,80 @@
 .container {
+    height: 32.75rem;
+    background:  url('../../../assets/img/bg-pattern-intro-mobile.svg'), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-size: 1600px 1600px, auto;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 2.5rem  1.5rem 0 1.5rem;
+    border-bottom-left-radius: 150px;
+}
+
+.container__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem  1.5rem 0 1.5rem;
-    background-color: rgb(60, 61, 61);
+    margin-bottom: 6.375rem;
 }
 
-h1 {
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.buttonHeader {
+.menuHeader {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 1.563rem;
+    height: 1.125rem;
     padding: 0;
     border: none;
+    background: url('../../../assets/img/icon-hamburger.svg') no-repeat center;
+}
+
+.title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.625rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .05rem;
+    margin-bottom: 1.125rem;
+}
+
+.text {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2.75rem;
+}
+
+.sec__container-btn {
+    text-align: center;
+}
+
+.btn {
+    width: 8.5rem;
+    height: 2.625rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.free {
+    margin-right: 0.875rem;
+    color: hsl(353, 100%, 62%);
+}
+
+.free:active {
+    border: none;
+    color: #fff;
+    background-color: hsl(13, 100%, 80%);
+}
+
+.more {
     background-color: transparent;
-    background-image: url('../../../assets/img/icon-hamburger.svg');
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.more:active {
+    border: none;
+    background-color: #fff;
+    color: hsl(353, 100%, 62%);
 }

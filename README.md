@@ -4,9 +4,11 @@
 
 MOBILE FIRST
 
- - [ ] Cabeçalho com Logo, menu hamburguer (Produtos, Companhia, Conectar, botão de login e de inscrição);
+ - [x] Cabeçalho com Logo, menu hamburguer;
 
- - [ ] Banner com titulo, parágrado e 2 botões(Começar de graça e Saiba mais);
+ - [x] Banner com titulo, parágrado e 2 botões(Começar de graça e Saiba mais);
+
+ - [ ] Ao clicar no menu hamburguer, abrir lista com Produtos, Companhia, Conectar, botão de login e de inscrição;
 
  - [ ] Conteúdo Projetado para o futuro: 
 
