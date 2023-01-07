@@ -8,14 +8,24 @@ import { Component } from '@angular/core';
 
 export class HeaderComponent {
   itens = [
-    {title: "Produtos"},
-    {title: "Companhia"},
-    {title: "Contatos"}
+    {
+      title: "Produtos",
+      topics: ["Visão geral", "Precificação", "Mercado", "Característica", "Integrações"]
+    },
+    {
+      title: "Companhia",
+      topics: ["Sobre", "Equipe", "Blog", "Carreiras"]
+    },
+    {
+      title: "Contatos",
+      topics: ["Contatos", "Notícias", "LinkedIn"]
+    }
   ];
    
   dropMenu () {
     let menu  = document.getElementById("menuList");
     let menuH = document.getElementById("menuHeader");
+    
     if (menu !== null && menuH !== null) {
       menu.classList.toggle("menuList-active")
       menuH.classList.toggle("menuHeader-active")

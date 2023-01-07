@@ -4,11 +4,18 @@
         <button (click)="dropMenu()" class="menuHeader" id="menuHeader"></button>
         <div class="menuList" id="menuList">
             <ul>
-                <li class="item" *ngFor="let iten of itens">
-                    {{ iten.title }}
-                    <span class="material-symbols-outlined chevron">
-                        chevron_left
-                    </span>
+                <li class="container-itens" *ngFor="let iten of itens">
+                    <div class="item-title">
+                        {{ iten.title }}
+                        <span class="material-symbols-outlined chevron">
+                            chevron_left
+                        </span>
+                    </div>
+                    <ul class="item-list">
+                        <li class="topic" *ngFor="let topic of iten.topics" >
+                            {{ topic }}
+                        </li>
+                    </ul>
                 </li>
             </ul>
             <hr>

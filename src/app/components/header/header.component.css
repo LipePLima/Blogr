@@ -34,7 +34,7 @@
 }
 
 .menuList {
-    display: none;
+    /* display: none; */
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     text-align: center;
@@ -51,13 +51,37 @@
     display: initial;
 }
 
-.item {
+.container-itens {
+    margin-bottom: 1.5rem;
+}
+
+.item-title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 500;
     color: hsl(208, 49%, 24%);
-    margin-top: 2rem;
+}
+
+.item-list {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    margin: 1.75rem 1.5rem 0 1.5rem;
+}
+
+.topic {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(208, 49%, 24%);
+    padding-bottom: 1.75rem;
+}
+
+.topic:active {
+    color: #000;
+}
+
+.item-list:last-child {
+    padding-top: 1.75rem;
 }
 
 .chevron {
@@ -70,8 +94,8 @@
 }
 
 hr {
-    margin: 24px 24px;
-}
+    margin: 0 1.5rem 1.5rem 1.5rem;
+} 
 
 .containerHeader-btns {
     display: flex;
