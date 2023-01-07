@@ -25,7 +25,84 @@
     padding: 0;
     border: none;
     background: url('../../../assets/img/icon-hamburger.svg') no-repeat center;
+    transition: .5s;
 }
+
+.menuHeader-active {
+    transition: .5s;
+    background: url('../../../assets/img/icon-close.svg') no-repeat center
+}
+
+.menuList {
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 324px;
+    background-color: rgb(240, 240, 240);
+    color: #000;
+    border-radius: 10px;
+    padding: 2.25rem 0;
+    
+}
+
+.menuList-active {
+    display: initial;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: hsl(208, 49%, 24%);
+    margin-top: 2rem;
+}
+
+.chevron {
+    font-size: 20px;
+}
+
+.chevron:active {
+    transform: rotate(-90deg);
+    transition: .2s;
+}
+
+hr {
+    margin: 24px 24px;
+}
+
+.containerHeader-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(208, 49%, 24%);
+    border: none;
+    margin-bottom: 22px;
+}
+
+.sign-up {
+    width: 137px;
+    height: 48px;
+    border-radius: 22px;
+    border: none;
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: #fff;
+}
+
+.sign-up:active {
+    background: hsl(355, 100%, 74%)
+}
+
+
 
 .title {
     font-family: 'Overpass', sans-serif;
@@ -64,7 +141,7 @@
 .free:active {
     border: none;
     color: #fff;
-    background-color: hsl(13, 100%, 80%);
+    background-color: hsl(355, 100%, 74%);
 }
 
 .more {
@@ -76,5 +153,5 @@
 .more:active {
     border: none;
     background-color: #fff;
-    color: hsl(353, 100%, 62%);
+    color: hsl(356, 100%, 66%);
 }
