@@ -21,15 +21,24 @@ export class HeaderComponent {
       topics: ["Contatos", "Notícias", "LinkedIn"]
     }
   ];
-   
+
   dropMenu () {
     let menu  = document.getElementById("menuList");
     let menuH = document.getElementById("menuHeader");
-    
+
     if (menu !== null && menuH !== null) {
       menu.classList.toggle("menuList-active")
       menuH.classList.toggle("menuHeader-active")
     }
-    
+  }
+
+  dropSubList () {
+    let subList = document.querySelectorAll("#item-list");
+
+    if (subList !== null) {
+      subList.forEach ( e => {
+        e.classList.toggle('item-list-active')
+      })
+    }
   }
 }

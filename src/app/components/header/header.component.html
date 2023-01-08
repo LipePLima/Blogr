@@ -5,14 +5,14 @@
         <div class="menuList" id="menuList">
             <ul>
                 <li class="container-itens" *ngFor="let iten of itens">
-                    <div class="item-title">
+                    <div (click)="dropSubList();$event.stopPropagation() " class="item-title">
                         {{ iten.title }}
                         <span class="material-symbols-outlined chevron">
                             chevron_left
                         </span>
                     </div>
-                    <ul class="item-list">
-                        <li class="topic" *ngFor="let topic of iten.topics" >
+                    <ul class="item-list" id="item-list">
+                        <li class="topic" id="topic" *ngFor="let topic of iten.topics">
                             {{ topic }}
                         </li>
                     </ul>

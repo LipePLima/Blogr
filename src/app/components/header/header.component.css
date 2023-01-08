@@ -34,11 +34,12 @@
 }
 
 .menuList {
-    display: none;
+    /* display: none; */
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     text-align: center;
-    top: 120px;
+    top: 20%;
+    left: auto;
     width: 324px;
     background-color: rgb(240, 240, 240);
     color: #000;
@@ -52,6 +53,10 @@
 }
 
 .container-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 1.5rem;
 }
 
@@ -59,14 +64,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px;
     font-weight: 500;
     color: hsl(208, 49%, 24%);
 }
 
 .item-list {
+    display: none;
+    width: calc(100% - 3rem);
     background-color: rgb(231, 231, 231);
     border-radius: 10px;
     margin: 1.75rem 1.5rem 0 1.5rem;
+    
+}
+
+.item-list-active {
+    display: block;
+    transition: .5s;
 }
 
 .topic {
@@ -88,7 +102,7 @@
     font-size: 20px;
 }
 
-.chevron:active {
+.chevron-active {
     transform: rotate(-90deg);
     transition: .2s;
 }
