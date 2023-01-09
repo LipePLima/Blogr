@@ -16,7 +16,7 @@ MOBILE FIRST
 
  - [x] Conteúdo Projetado para o futuro: 
 
- - [ ] Conteúdo Infraestrutura de ponta:
+ - [x] Conteúdo Infraestrutura de ponta:
 
  - [ ] Conteúdo Grátis, Aberto, Simples / Ferramentas poderosas:
 

@@ -2,11 +2,10 @@
   font: 600 22px 'Ubuntu', sans-serif;
   color: hsl(208, 49%, 24%);
   text-align: center;
-  margin: 106px 0 54px 0;
+  margin: 6.625rem 0 3.375rem 0;
 }
 
 .img-future {
-  width: 20.438rem;
   height: 21.25rem;
   background: url("../../../assets/img/illustration-editor-mobile.svg") no-repeat center;
 }
@@ -20,7 +19,42 @@
 
 .text-future {
   font-family: 'Overpass', sans-serif;
-  width: 20.438rem;
   text-align: center;
   color: hsl(207, 13%, 34%);
+  margin: 0 2.219rem 0 2.219rem;
+}
+
+.container-infra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 36.625rem;
+  margin-top: 15.25rem;
+  background: url('../../../assets/img/bg-pattern-circles.svg') no-repeat, linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-size: 500px 500px, auto;
+  background-position: -78px -140px, 0;
+  border-radius: 0 100px 0 110px;
+}
+
+.img-infra {
+  position: absolute;
+  top: 108.75rem;
+  width: 100%;
+  height: 22.625rem;
+}
+
+.title-infra {
+  font: 600 28px 'Overpass', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.text-infra {
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 1.5rem 2.219rem 0 2.219rem;
 }
