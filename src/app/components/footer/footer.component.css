@@ -1,0 +1,19 @@
+img {
+  margin-bottom: 80px;
+}
+
+.title-footer {
+  font: 600 18px 'Overpass', sans-serif;
+  color: #fff;
+  margin: 2.5rem 0;
+}
+
+.item-footer {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.4rem;
+}
+
+.item-footer:active {
+  color: rgba(255, 255, 255, 0.95);
+}

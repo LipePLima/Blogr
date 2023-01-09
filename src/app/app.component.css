@@ -1,5 +1,23 @@
+header {
+  height: 32.75rem;
+  background:  url('../assets/img/bg-pattern-intro-mobile.svg'), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-size: 1600px 1600px, auto;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 2.5rem  1.5rem 0 1.5rem;
+  border-bottom-left-radius: 150px;
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  padding: 76px 0;
+  text-align: center;
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
 }

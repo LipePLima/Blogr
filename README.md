@@ -20,7 +20,7 @@ MOBILE FIRST
 
  - [x] Conteúdo Grátis, Aberto, Simples / Ferramentas poderosas:
 
- - [ ] Rodapé com logo e um menu de navegação em lista;
+ - [x] Rodapé com logo e um menu de navegação em lista;
 
 
 
