@@ -1,0 +1,26 @@
+.title-future {
+  font: 600 22px 'Ubuntu', sans-serif;
+  color: hsl(208, 49%, 24%);
+  text-align: center;
+  margin: 106px 0 54px 0;
+}
+
+.img-future {
+  width: 20.438rem;
+  height: 21.25rem;
+  background: url("../../../assets/img/illustration-editor-mobile.svg") no-repeat center;
+}
+
+.subtitle-future {
+  font: 500 22px 'Ubuntu', sans-serif;
+  color: hsl(208, 49%, 24%);
+  text-align: center;
+  margin: 3.625rem 0 1.75rem 0;
+}
+
+.text-future {
+  font-family: 'Overpass', sans-serif;
+  width: 20.438rem;
+  text-align: center;
+  color: hsl(207, 13%, 34%);
+}

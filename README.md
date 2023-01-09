@@ -14,7 +14,7 @@ MOBILE FIRST
 
  - [ ] Ao clicar em qualquer item da lista do menu hamburguer, abir uma sub lista com outra lista de assuntos relacionados.
 
- - [ ] Conteúdo Projetado para o futuro: 
+ - [x] Conteúdo Projetado para o futuro: 
 
  - [ ] Conteúdo Infraestrutura de ponta:
 

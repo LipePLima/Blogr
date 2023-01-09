@@ -34,7 +34,7 @@
 }
 
 .menuList {
-    /* display: none; */
+    display: none;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     text-align: center;
@@ -45,7 +45,7 @@
     color: #000;
     border-radius: 10px;
     padding: 2.25rem 0;
-    
+
 }
 
 .menuList-active {
@@ -75,7 +75,7 @@
     background-color: rgb(231, 231, 231);
     border-radius: 10px;
     margin: 1.75rem 1.5rem 0 1.5rem;
-    
+
 }
 
 .item-list-active {
@@ -109,7 +109,7 @@
 
 hr {
     margin: 0 1.5rem 1.5rem 1.5rem;
-} 
+}
 
 .containerHeader-btns {
     display: flex;
