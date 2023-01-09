@@ -10,14 +10,14 @@
   background: url("../../../assets/img/illustration-editor-mobile.svg") no-repeat center;
 }
 
-.subtitle-future {
+.subtitle {
   font: 500 22px 'Ubuntu', sans-serif;
   color: hsl(208, 49%, 24%);
   text-align: center;
   margin: 3.625rem 0 1.75rem 0;
 }
 
-.text-future {
+.text {
   font-family: 'Overpass', sans-serif;
   text-align: center;
   color: hsl(207, 13%, 34%);
@@ -40,9 +40,13 @@
 
 .img-infra {
   position: absolute;
-  top: 108.75rem;
+  top: 106rem;
   width: 100%;
-  height: 22.625rem;
+  height: 23rem;
+  background: url('../../../assets/img/illustration-phones.svg') no-repeat center;
+  background-size: 420px 420px;
+  background-position: top -12px right -25px;
+  border: none;
 }
 
 .title-infra {
@@ -57,4 +61,13 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   margin: 1.5rem 2.219rem 0 2.219rem;
+}
+
+.container-free {
+  padding: 4.875rem 0 6.25rem 0;
+}
+
+.img-free {
+  height: 21.25rem;
+  background: url('../../../assets/img/illustration-laptop-mobile.svg') no-repeat center;
 }

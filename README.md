@@ -18,7 +18,7 @@ MOBILE FIRST
 
  - [x] Conteúdo Infraestrutura de ponta:
 
- - [ ] Conteúdo Grátis, Aberto, Simples / Ferramentas poderosas:
+ - [x] Conteúdo Grátis, Aberto, Simples / Ferramentas poderosas:
 
  - [ ] Rodapé com logo e um menu de navegação em lista;
 
