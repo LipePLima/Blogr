@@ -26,7 +26,7 @@
 
  - [x] Cabelho responsivo;
 
- - [ ] Secção Infraestrutura de ponta Responsiva;
+ - [x] Secção Infraestrutura de ponta Responsiva;
 
  - [x] Secção Projeto para o futuro responsiva;
 
