@@ -27,9 +27,10 @@
     position: relative;
     top: 0;
     width: 40.7%;
-    height: 41rem;
+    height: 35rem;
+    background-color: transparent;
     background-size: 620px 620px;
-    background-position: left -40px top;
+    background-position: left -40px top -10px;
   }
 
   .content-infra {

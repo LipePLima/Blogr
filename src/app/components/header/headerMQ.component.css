@@ -1,0 +1,97 @@
+@media screen and (min-width: 878px) {
+  .menuHeader {
+    display: none;
+  }
+
+  .menuList {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: initial;
+    margin: 0 0 0 3rem;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .list-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 55%;
+  }
+
+  .container-itens {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .container-itens:nth-child(-n+2) {
+    margin-right: 1.5rem;
+  }
+
+  .btnHeader {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .btnHeader p:hover, .login:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .containerHeader-btns {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .login {
+    cursor: pointer;
+    padding: 0;
+    margin: 0 2rem 0 0;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .sign-up {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(13, 100%, 72%);
+    background: #fff;
+  }
+
+  .sign-up:active {
+    color: #fff;
+    background-color: hsl(355, 100%, 74%);
+  }
+
+  .free, .more {
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (min-width: 1080px) {
+  .container__header {
+    margin: 0 1.5rem 6.375rem 1.5rem;
+  }
+
+  .container-itens:nth-child(-n+2) {
+    margin-right: 3rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+}

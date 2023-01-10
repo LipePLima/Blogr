@@ -24,7 +24,6 @@
 
 .menuList {
   display: none;
-  font-family: 'Ubuntu', sans-serif;
   position: absolute;
   text-align: center;
   top: 20%;
@@ -35,6 +34,7 @@
   border-radius: 10px;
   padding: 2.25rem 0;
   margin: 0 1.75rem;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 
 .menuList-active {
@@ -49,13 +49,15 @@
   margin-bottom: 1.5rem;
 }
 
-.item-title {
+.btnHeader {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  font-weight: 500;
+  padding: 0;
+  font: bold 16px 'Ubuntu', sans-serif;
   color: hsl(208, 49%, 24%);
+  background-color: transparent;
+  border: none;
 }
 
 .item-list {
@@ -67,18 +69,23 @@
 }
 
 .item-list-active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: .5s;
 }
 
-.topic {
-  font-size: 15px;
-  font-weight: 500;
+.linkTopic {
+  font: 500 15px 'Ubuntu', sans-serif;
+  text-decoration: none;
   color: hsl(208, 49%, 24%);
-  padding-bottom: 1.75rem;
+  background-color: transparent;
+  margin-bottom: 1.75rem;
+  border: none;
 }
 
-.topic:active {
+.linkTopic:active {
   color: #000;
 }
 
@@ -88,6 +95,7 @@
 
 .chevron {
   font-size: 20px;
+  transition: .2s;
 }
 
 .chevron-active {
@@ -110,9 +118,14 @@ hr {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  background-color: transparent;
   color: hsl(208, 49%, 24%);
   border: none;
   margin-bottom: 22px;
+}
+
+.login:active {
+  color: #000;
 }
 
 .sign-up {
@@ -176,7 +189,7 @@ hr {
   border: 1px solid #fff;
 }
 
-.more:active {
+.more:active, .more:active {
   border: none;
   background-color: #fff;
   color: hsl(356, 100%, 66%);

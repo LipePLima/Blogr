@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css', './headerMQ.component.css']
 })
 
 export class HeaderComponent {
@@ -33,12 +33,14 @@ export class HeaderComponent {
   }
 
   dropSubList () {
+    let arrow   = document.querySelectorAll('#chevron');
     let subList = document.querySelectorAll("#item-list");
 
     if (subList !== null) {
-      subList.forEach ( e => {
-        e.classList.toggle('item-list-active')
-      })
+      for (let i = 0; i < subList.length; i++) {
+        subList[i].classList.toggle('item-list-active')
+        arrow[i].classList.toggle('chevron-active')
+      }
     }
   }
 }

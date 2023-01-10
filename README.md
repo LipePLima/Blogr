@@ -24,7 +24,7 @@
 
 **Desktop**
 
- - [ ] Cabelho responsivo;
+ - [x] Cabelho responsivo;
 
  - [ ] Secção Infraestrutura de ponta Responsiva;
 

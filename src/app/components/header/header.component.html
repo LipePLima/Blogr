@@ -1,20 +1,22 @@
-<div class="container__header">
+<section class="container__header">
     <img src="../../../assets/img/logo.svg" alt="Logo Blogr">
     <button (click)="dropMenu()" class="menuHeader" id="menuHeader"></button>
     <div class="menuList" id="menuList">
-        <ul>
+        <ul class="list-itens">
             <li class="container-itens" *ngFor="let iten of itens">
-                <div (click)="dropSubList();$event.stopPropagation() " class="item-title">
-                    {{ iten.title }}
-                    <span class="material-symbols-outlined chevron">
-                        chevron_left
-                    </span>
+                <div (click)="dropSubList();$event.stopPropagation()" class="item-title">
+                    <button class="btnHeader">
+                      <p>{{ iten.title }}</p>
+                      <span class="material-symbols-outlined chevron" id="chevron">
+                          chevron_left
+                      </span>
+                    </button>
                 </div>
-                <ul class="item-list" id="item-list">
-                    <li class="topic" id="topic" *ngFor="let topic of iten.topics">
-                        {{ topic }}
-                    </li>
-                </ul>
+                <nav class="item-list" id="item-list">
+                  <a href="#" class="linkTopic" *ngFor="let topic of iten.topics">
+                    {{ topic }}
+                  </a>
+                </nav>
             </li>
         </ul>
         <hr>
@@ -23,17 +25,13 @@
             <button class="sign-up">Inscreva-se</button>
         </div>
     </div>
-</div>
+</section>
 <section class="container__sec">
-    <h1 class="title">Uma plataforma <br> editorial moderna</h1>
-    <p class="text">Aumente seu público e construa <br> sua filial on-line</p>
+    <h1 class="title">Uma plataforma editorial moderna</h1>
+    <p class="text">Aumente seu público e construa sua filial on-line</p>
     <div class="sec__container-btn">
-        <button class="btn free">
-            Comece de graça
-        </button>
-        <button class="btn more">
-            Saiba mais
-        </button>
+        <button class="btn free">Comece de graça</button>
+        <button class="btn more">Saiba mais</button>
     </div>
 </section>
 
