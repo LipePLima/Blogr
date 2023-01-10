@@ -15,6 +15,11 @@
 }
 
 @media screen and (min-width: 878px) {
+  /* CONTENT FUTURE */
+  .conteiner-future {
+    padding: 0;
+  }
+
   .title-future {
     font-size: 1.5rem;
   }
@@ -28,6 +33,7 @@
   .info-future {
     order: 1;
     width: 45%;
+    padding-left: 1.5rem;
   }
 
   .img-future {
@@ -38,7 +44,7 @@
     background-position: left -50px top 5px;
   }
 
-
+  /* CONTENT INFRA */
   .container-infra {
     flex-direction: row;
     justify-content: space-around;
@@ -74,9 +80,47 @@
   .text-infra {
     margin: 1.5rem 0 0 0;
   }
+
+  /* CONTENT FREE */
+  .container-free {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img-free {
+    order: 1;
+    width: 55%;
+    height: 660px;
+    background-size: 786px 660px;
+    background-position: left -200px top 0px;
+  }
+
+  .info-free {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 660px;
+    margin-right: 1.5rem;
+  }
+
+  .subtitle {
+    width: 100%;
+    margin: 0;
+  }
+
+  .text {
+    margin: 1.5rem 2rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1080px) {
+  /* CONTENT FUTURE */
   .info-future {
     display: flex;
     flex-direction: column;
@@ -84,6 +128,7 @@
     align-items: center;
     height: 740px;
     margin-left: 3rem;
+    padding: 0;
   }
 
   .subtitle {
@@ -98,13 +143,36 @@
   .img-future {
     width: 40%;
     height: 740px;
+    background-image: url('../../../assets/img/illustration-editor-desktop.svg');
     background-size: 782px 740px;
-    background-position: left -50px top 5px;
+    background-position: left -30px top 0px;
   }
 
+  /* CONTENT INFRA */
+  .img-infra {
+    background-size: 520px 520px;
+    height: 35rem;
+    background-position: left -35px top 5px;
+  }
+
+  /* CONTENT FREE */
+  .img-free {
+    background-image: url("../../../assets/img/illustration-laptop-desktop.svg");
+    background-position: left -220px top 0px;
+  }
+
+  .info-free {
+    margin-right: 2rem;
+  }
+
+  .subtitle, .text {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1305px) {
   .img-infra {
     background-size: 620px 620px;
-    height: 35rem;
     background-position: left -30px top 5px;
   }
 }

@@ -30,7 +30,7 @@
 
  - [x] Secção Projeto para o futuro responsiva;
 
- - [ ] Secção Free Responsiva;
+ - [x] Secção Free Responsiva;
 
  - [ ] Rodapé Responsivo;
 
