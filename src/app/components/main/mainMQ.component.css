@@ -1,0 +1,9 @@
+@media screen and (min-width: 476px) {
+  .container-infra {
+    background-position: -25px -180px, 0;
+  }
+
+  .img-infra {
+    top: 103rem;
+  }
+}

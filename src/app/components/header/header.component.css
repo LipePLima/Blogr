@@ -23,7 +23,7 @@
 }
 
 .menuList {
-  /* display: none; */
+  display: none;
   font-family: 'Ubuntu', sans-serif;
   position: absolute;
   text-align: center;
