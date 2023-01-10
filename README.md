@@ -2,7 +2,7 @@
 
 ## Etapas
 
-MOBILE FIRST
+**MOBILE FIRST**
 
  - [x] Cabeçalho com Logo, menu hamburguer;
 
@@ -14,13 +14,25 @@ MOBILE FIRST
 
  - [ ] Ao clicar em qualquer item da lista do menu hamburguer, abir uma sub lista com outra lista de assuntos relacionados.
 
- - [x] Conteúdo Projetado para o futuro: 
+ - [x] Secção Projetado para o futuro: 
 
- - [x] Conteúdo Infraestrutura de ponta:
+ - [x] Secção Infraestrutura de ponta:
 
- - [x] Conteúdo Grátis, Aberto, Simples / Ferramentas poderosas:
+ - [x] Secção Grátis, Aberto, Simples / Ferramentas poderosas:
 
  - [x] Rodapé com logo e um menu de navegação em lista;
+
+**Desktop**
+
+ - [ ] Cabelho responsivo;
+
+ - [ ] Secção Infraestrutura de ponta Responsiva;
+
+ - [x] Secção Projeto para o futuro responsiva;
+
+ - [ ] Secção Free Responsiva;
+
+ - [ ] Rodapé Responsivo;
 
 
 
