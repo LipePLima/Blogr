@@ -8,7 +8,15 @@ img {
   margin: 2.5rem 0;
 }
 
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .item-footer {
+  width: 7.5rem;
   font-family: 'Ubuntu', sans-serif;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 1.4rem;

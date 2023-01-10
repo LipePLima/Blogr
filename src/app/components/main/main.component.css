@@ -45,7 +45,7 @@
   height: 23rem;
   background: url('../../../assets/img/illustration-phones.svg') no-repeat center;
   background-size: 420px 420px;
-  background-position: top -12px right -25px;
+  background-position: top -12px center;
   border: none;
 }
 
