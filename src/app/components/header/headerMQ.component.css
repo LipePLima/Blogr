@@ -22,6 +22,7 @@
   }
 
   .container-itens {
+    position: relative;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -39,6 +40,23 @@
   .btnHeader p:hover, .login:hover {
     color: #fff;
     text-decoration: underline;
+  }
+
+  .item-list {
+    width: auto;
+  }
+
+  .item-list-active {
+    position: absolute;
+    top: 1rem;
+  }
+
+  .linkTopic {
+    margin: 0 1rem 1.75rem 1rem;
+  }
+
+  .linkTopic:hover {
+    color: #000;
   }
 
   hr {
