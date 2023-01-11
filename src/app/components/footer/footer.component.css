@@ -1,4 +1,13 @@
-img {
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-footer {
+  width: 101px;
+  height: 40px;
+  background: url('../../../assets/img/logo.svg') no-repeat;
   margin-bottom: 80px;
 }
 

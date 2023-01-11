@@ -32,7 +32,7 @@
 
  - [x] Secção Free Responsiva;
 
- - [ ] Rodapé Responsivo;
+ - [x] Rodapé Responsivo;
 
 
 

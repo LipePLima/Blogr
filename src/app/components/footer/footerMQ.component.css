@@ -1,0 +1,19 @@
+@media screen and (min-width: 878px) {
+  .container-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .img-footer {
+    margin: 0;
+  }
+
+  .title-footer {
+    margin: 0 0 40px 0;
+  }
+
+  .container-links {
+    margin-top: .6rem;
+  }
+}

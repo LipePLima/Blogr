@@ -121,7 +121,7 @@ hr {
   background-color: transparent;
   color: hsl(208, 49%, 24%);
   border: none;
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
 }
 
 .login:active {
@@ -130,7 +130,7 @@ hr {
 
 .sign-up {
   width: 137px;
-  height: 48px;
+  height: 3rem;
   border-radius: 22px;
   border: none;
   background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));

@@ -39,8 +39,8 @@
   .img-future {
     order: 2;
     width: 55%;
-    height: 640px;
-    background-size: 682px 640px;
+    height: 40rem;
+    background-size: 42.625rem 40rem;
     background-position: left -50px top 5px;
   }
 
@@ -50,7 +50,7 @@
     justify-content: space-around;
     height: 25rem;
     margin-top: 8rem;
-    background-size: 900px 900px, auto;
+    background-size: 56.25rem 56.25rem, auto;
     background-position: -190px -300px, 0;
   }
 
@@ -65,7 +65,7 @@
     width: 41.7%;
     height: 35rem;
     background-color: transparent;
-    background-size: 420px 420px;
+    background-size: 26.25rem 26.25rem;
     background-position: left -30px top 50px;
   }
 
@@ -92,8 +92,8 @@
   .img-free {
     order: 1;
     width: 55%;
-    height: 660px;
-    background-size: 786px 660px;
+    height: 41.25rem;
+    background-size: 49.125rem 41.25rem;
     background-position: left -200px top 0px;
   }
 
@@ -104,7 +104,7 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 660px;
+    height: 41.25rem;
     margin-right: 1.5rem;
   }
 
@@ -126,7 +126,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 740px;
+    height: 46.25rem;
     margin-left: 3rem;
     padding: 0;
   }
@@ -142,15 +142,15 @@
 
   .img-future {
     width: 40%;
-    height: 740px;
+    height: 46.25rem;
     background-image: url('../../../assets/img/illustration-editor-desktop.svg');
-    background-size: 782px 740px;
+    background-size: 48.875rem 46.25rem;
     background-position: left -30px top 0px;
   }
 
   /* CONTENT INFRA */
   .img-infra {
-    background-size: 520px 520px;
+    background-size: 32.5rem 32.5rem;
     height: 35rem;
     background-position: left -35px top 5px;
   }
@@ -172,7 +172,7 @@
 
 @media screen and (min-width: 1305px) {
   .img-infra {
-    background-size: 620px 620px;
+    background-size: 38.75rem 38.75rem;
     background-position: left -30px top 5px;
   }
 }
