@@ -21,7 +21,7 @@
   }
 
   .title-future {
-    font-size: 1.5rem;
+    font-size: 32px;
   }
 
   .container-info {
@@ -152,7 +152,7 @@
   .container-infra {
     width: 100%;
   }
-  
+
   .img-infra {
     background-size: 32.5rem 32.5rem;
     height: 35rem;

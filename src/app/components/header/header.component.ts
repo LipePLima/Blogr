@@ -33,11 +33,13 @@ export class HeaderComponent {
   }
 
   dropSubList () {
-    let arrow     = document.querySelectorAll('#chevron');
-    let subList   = document.querySelectorAll("#item-list");
+    let menu    = document.querySelectorAll('#title-header')
+    let arrow   = document.querySelectorAll('#chevron');
+    let subList = document.querySelectorAll("#item-list");
 
     if (subList !== null) {
       for (let i = 0; i < subList.length; i++) {
+        menu[i].classList.toggle('list-active')
         subList[i].classList.toggle('item-list-active')
         arrow[i].classList.toggle('chevron-active')
       }

@@ -9,11 +9,16 @@
     margin: 0;
   }
 
+  .container-links {
+    margin-top: .6rem;
+  }
+
   .title-footer {
     margin: 0 0 40px 0;
   }
 
-  .container-links {
-    margin-top: .6rem;
+  .item-footer:hover {
+    cursor: pointer;
+    color: #fff;
   }
 }

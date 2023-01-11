@@ -28,6 +28,11 @@
     margin: 0;
   }
 
+  .list-active {
+    color: #fff;
+    text-decoration: underline;
+  }
+
   .container-itens:nth-child(-n+2) {
     margin-right: 1.5rem;
   }
