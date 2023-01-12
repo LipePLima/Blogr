@@ -4,6 +4,6 @@ export interface itens {
 };
 
 export interface listClass {
-  searchClass: string
+  searchId: NodeList | undefined
   elementClass: string
 }

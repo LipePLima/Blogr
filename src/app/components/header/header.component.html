@@ -2,7 +2,7 @@
     <img src="../../../assets/img/logo.svg" alt="Logo Blogr">
     <button (click)="dropMenu()" class="menuHeader" id="menuHeader"></button>
     <div class="menuList" id="menuList">
-        <ul class="list-itens">
+        <ul class="list-itens" id="list-itens">
             <li class="container-itens" id="container-itens" *ngFor="let iten of itens">
                 <button (click)="dropSubList($event)" class="btnHeader" id="btnHeader">
                   {{ iten.title }}
