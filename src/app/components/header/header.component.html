@@ -4,14 +4,12 @@
     <div class="menuList" id="menuList">
         <ul class="list-itens">
             <li class="container-itens" id="container-itens" *ngFor="let iten of itens">
-                <div (click)="dropSubList();$event.stopPropagation()" class="item-title">
-                    <button class="btnHeader">
-                      <p id="title-header">{{ iten.title }}</p>
-                      <span class="material-symbols-outlined chevron" id="chevron">
-                          chevron_left
-                      </span>
-                    </button>
-                </div>
+                <button (click)="dropSubList($event)" class="btnHeader" id="btnHeader">
+                  {{ iten.title }}
+                  <span class="material-symbols-outlined chevron" id="chevron">
+                      chevron_left
+                  </span>
+                </button>
                 <nav class="item-list" id="item-list">
                   <a href="#" class="linkTopic" *ngFor="let topic of iten.topics">
                     {{ topic }}

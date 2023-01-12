@@ -12,7 +12,7 @@
 
  - [x] Criar e estilizar sublistas da lista do menu hamburguer;
 
- - [ ] Ao clicar em qualquer item da lista do menu hamburguer, abir uma sub lista com outra lista de assuntos relacionados.
+ - [x] Ao clicar em qualquer item da lista do menu hamburguer, abir uma sub lista com outra lista de assuntos relacionados.
 
  - [x] Secção Projetado para o futuro: 
 
@@ -33,6 +33,10 @@
  - [x] Secção Free Responsiva;
 
  - [x] Rodapé Responsivo;
+
+**Extra**
+
+ - [ ] Abrir um menu e fechar o outro automaticamente
 
 
 

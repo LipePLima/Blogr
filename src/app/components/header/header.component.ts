@@ -1,3 +1,4 @@
+import { itens, listClass } from './interface';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-  itens = [
+  itens: itens[] = [
     {
       title: "Produtos",
       topics: ["Visão geral", "Precificação", "Mercado", "Característica", "Integrações"]
@@ -22,9 +23,9 @@ export class HeaderComponent {
     }
   ];
 
-  dropMenu () {
-    let menu  = document.getElementById("menuList");
-    let menuH = document.getElementById("menuHeader");
+  dropMenu (): void {
+    const menu  = document.getElementById("menuList");
+    const menuH = document.getElementById("menuHeader");
 
     if (menu !== null && menuH !== null) {
       menu.classList.toggle("menuList-active")
@@ -32,17 +33,44 @@ export class HeaderComponent {
     }
   }
 
-  dropSubList () {
-    let menu    = document.querySelectorAll('#title-header')
-    let arrow   = document.querySelectorAll('#chevron');
-    let subList = document.querySelectorAll("#item-list");
+  dropSubList (event: Event) {
+    event.stopPropagation()
 
-    if (subList !== null) {
-      for (let i = 0; i < subList.length; i++) {
-        menu[i].classList.toggle('list-active')
-        subList[i].classList.toggle('item-list-active')
-        arrow[i].classList.toggle('chevron-active')
+    const parentElement: ParentNode = (event.target as HTMLElement).parentElement!;
+
+    const subList = parentElement.querySelectorAll('#item-list');
+    const btn     = parentElement.querySelectorAll('#btnHeader');
+    const arrow   = parentElement.querySelectorAll('#chevron');
+
+    const ul = parentElement.parentNode;
+    const listClass: listClass[] = [
+      {
+        searchClass: '.item-list-active',
+        elementClass: 'item-list-active'
+      },
+      {
+        searchClass: '.btnHeader-active',
+        elementClass: 'btnHeader-active'
+      },
+      {
+        searchClass: '.chevron-active',
+        elementClass: 'chevron-active'
       }
+    ]
+
+    // listClass.forEach( e => {
+    //   const check = ul?.querySelectorAll(e.searchClass)
+    //   check?.forEach( el => {
+    //     if (el.classList.contains(e.elementClass)) {
+    //       el.classList.remove(e.elementClass)
+    //     }
+    //   })
+    // })
+
+    for (let i = 0; i < subList.length; i++) {
+      btn[i].classList.toggle('btnHeader-active');
+      subList[i].classList.toggle('item-list-active');
+      arrow[i].classList.toggle('chevron-active');
     }
   }
 }

@@ -42,9 +42,8 @@
     color: rgba(255, 255, 255, 0.8);
   }
 
-  .btnHeader p:hover, .login:hover {
+  .btnHeader:hover, .btnHeader-active, .login:hover {
     color: #fff;
-    text-decoration: underline;
   }
 
   .item-list {
