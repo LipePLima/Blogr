@@ -1,10 +1,8 @@
 # Landing Page
 
-
-
 ## Descrição
 
-Blogr, uma plataforma editorial moderna! Este projeto foi selecionado no Frontend Mentor, feito com o intuito de treinar Angular e ter o primeiro contato com o framework. Nele temos uma uma única página com todas as principais informações para entender o que é o Blogrs, tudo feito em HTML e CSS. As únicas funcionalidades feitas em Typescript disponíveis no projeto são nos botões do cabeçalho, onde temos um menu e cada item abre um submenu.
+Blogr, uma plataforma editorial moderna! Este projeto foi selecionado no Frontend Mentor, feito com o intuito de treinar Angular e ter o primeiro contato com o framework. Nele temos uma uma única página com todas as principais informações para entender o que é o Blogr, tudo feito em HTML e CSS. As únicas funcionalidades feitas em Typescript disponíveis no projeto são nos botões do cabeçalho, onde temos um menu e cada item abre um submenu.
 
 ## Etapas
 
@@ -56,11 +54,13 @@ Hospedagem:
 
 <h3> :camera: Página Mobile</h3>
 
-![blogr-orpin vercel app_ (3)](https://user-images.githubusercontent.com/102830741/212414293-2668589f-22f4-4132-8d88-5e2d8700e01d.png)
+![Page mobile](https://user-images.githubusercontent.com/102830741/212414293-2668589f-22f4-4132-8d88-5e2d8700e01d.png) ![Page mobile active](https://user-images.githubusercontent.com/102830741/212427463-f01e3370-657a-44cc-8a1d-67e5c05612d3.png)
+
 
 <h3> :camera: Página Desktop</h3>
 
-![localhost_4200_](https://user-images.githubusercontent.com/102830741/212415570-d3c63a6f-cfdf-4a70-af96-558fc9a7e4c9.png)
+![Page desktop](https://user-images.githubusercontent.com/102830741/212415570-d3c63a6f-cfdf-4a70-af96-558fc9a7e4c9.png) ![Page desktop active](https://user-images.githubusercontent.com/102830741/212427522-0939f512-656a-45b9-92d8-25f7cff118ee.png)
+
  
 ## Depoimento
 
