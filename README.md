@@ -1,5 +1,13 @@
 # Landing Page
 
+ - [Descrição](#descrição)
+ - [Etapas](#etapas)
+ - [Tecnologias](#tecnologias)
+ - [Imagens](#imagens)
+ - [Depoimento](#depoimento)
+ - [Contato](#contato)
+ - [Desenvolvedores](#desenvolvedores)
+
 ## Descrição
 
 Blogr, uma plataforma editorial moderna! Este projeto foi selecionado no Frontend Mentor, feito com o intuito de treinar Angular e ter o primeiro contato com o framework. Nele temos uma uma única página com todas as principais informações para entender o que é o Blogr, tudo feito em HTML e CSS. As únicas funcionalidades feitas em Typescript disponíveis no projeto são nos botões do cabeçalho, onde temos um menu e cada item abre um submenu.
@@ -66,7 +74,7 @@ Hospedagem:
 
 Este projeto me proporcionou muito conhecimento em diversos quesitos, tanto aprendendo um novo framework de javascript, quanto fazer um projeto com mais alguém(deu tudo errado, mas ao mesmo tempo muito aprendizado). Foi uma experiência muito boa, muitas complicações e muitas barreiras encontradas. Graças ao João Scarpa, eu pude avançar no projeto e finalizar o mesmo. Tivemos uma rápida call onde conversamos sobre o meu problema, ele me ensinou o caminho para resolver e me deu um breve resumo de como funciona o Angular, foi essencial para a finalização deste projeto e deixo aqui também o meu agradecimento. Agradecer também a Jennyfer, foi dela a ideia de fazer este projeto e minha a ideia de fazermos juntos, ela topou na hora sem hesitar. E mesmo diante de tantas complicaçõe durante o projeto, conseguimos nos adaptar e resolver os problemas.
 
-## Contato | Redes Sociais
+## Contato
 
 <a href="mailto:felipe.lima0160@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>  <a href="https://wa.me/5521979926096">![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)</a>  <a href="https://www.linkedin.com/in/felipe-lima01/">![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a> 
 
